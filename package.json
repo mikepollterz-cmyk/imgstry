@@ -1,0 +1,13 @@
+{
+  "name": "imgstry-filters",
+  "version": "1.4.2",
+  "description": "Performant client-side image processing and convolution kernel library.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "node test/filter.test.js",
+    "build": "echo 'Building bundle...'"
+  },
+  "keywords": ["image-processing", "canvas", "convolution", "filters", "sobel", "gaussian-blur"],
+  "author": "mikepollterz-cmyk",
+  "license": "MIT"
+}
