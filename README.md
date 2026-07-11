@@ -1,12 +1,14 @@
 # imgstry
 
-Sleek client-side image manipulation and styling engine for canvas layouts.
+Performant client-side image processing, convolution matrix, and kernel filter library.
 
 ## Features
-- Ultra lightweight implementation
-- Pure vanilla JS operations
-- Zero performance overhead
-- Fully canvas-native filter functions
+- Optimized 2D Convolution filter kernel algorithm
+- Fast pixel manipulation using typed array buffer structures
+- Presets for Sobel edge detection, Gaussian Blur, Laplacian sharpen, and box blurs
+- Clean ES Module design
 
-## Usage
-Just load the modules and call the initialization functions inside your layouts.
+## Installation
+```bash
+npm install imgstry-filters
+```
