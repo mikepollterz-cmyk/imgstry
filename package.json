@@ -1,13 +1,19 @@
 {
   "name": "imgstry-filters",
-  "version": "1.4.2",
-  "description": "Performant client-side image processing and convolution kernel library.",
-  "main": "src/main.js",
+  "version": "2.0.1",
+  "description": "Advanced canvas-based image processing library featuring matrix convolution, HSV space conversion, and pixel histogram calculations.",
+  "main": "src/index.js",
+  "module": "src/index.js",
   "scripts": {
-    "test": "node test/filter.test.js",
-    "build": "echo 'Building bundle...'"
+    "test": "node test/runner.js",
+    "lint": "eslint src/**/*.js",
+    "build": "node scripts/build.js"
   },
-  "keywords": ["image-processing", "canvas", "convolution", "filters", "sobel", "gaussian-blur"],
+  "keywords": ["image-filters", "convolution-matrix", "sobel-operator", "hsv-conversion", "histogram-equalization", "canvas-processing"],
   "author": "mikepollterz-cmyk",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  }
 }
